@@ -10,7 +10,7 @@ int m_remove(MATRIX* macierz)
 	}
 	else
 	{
-		free(macierz->);
+		free(macierz->wsk);
 		macierz->x = 0;
 		macierz->y = 0;
 	}

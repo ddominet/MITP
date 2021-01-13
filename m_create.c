@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include "matrix.h"
 
 MATRIX m_create(int szerokosc, int wysokosc )
 {
 	MATRIX macierz;
-	macierz.wsk = (int* )calloc(szerkosc * wysokosc, sizeof(int));
-	if (macierz.wsk! = NULL)
+	macierz.wsk = (int* )calloc(szerokosc * wysokosc, sizeof(int));
+	if(macierz.wsk!=NULL)
 	{
 		macierz.x = szerokosc;
-		macierz.y = dlugosc;
+		macierz.y = wysokosc;
 	}
 	else
 	{

@@ -13,7 +13,7 @@ typedef struct MATRIX_S MATRIX;
 MATRIX m_create(int, int );
 int m_remove(MATRIX* );
 int m_scanf(MATRIX* );
-int m_put(MATRIX* , int, int, int );
+void m_put(MATRIX* , int, int, int );
 int m_get(MATRIX* ,int , int);
 int m_printf(MATRIX* );
 

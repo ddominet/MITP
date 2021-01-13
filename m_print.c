@@ -3,7 +3,7 @@
 
 int m_printf(MATRIX* macierz)
 {
-	if(macierz->x <= 0 || macierz->y <= 0 || macierz=>wsk == NULL )
+	if(macierz->x <= 0 || macierz->y <= 0 || macierz->wsk == NULL )
 	{
 		return 0;
 	}
@@ -11,7 +11,7 @@ int m_printf(MATRIX* macierz)
 	{
 		for( int y = 0; y < macierz->y; y++)
 		{
-			printf("				%d", m_get(macierz, x, y);
+			printf("		%d", m_get(macierz, x, y));
 		}
 		printf("\n");
 	}	

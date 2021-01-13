@@ -8,7 +8,7 @@ int m_scanf(MATRIX* macierz)
 	{
 		for(int y = 0; y < macierz->y; y++)
 		{
-			scanf_s("%d", &wartosc);
+			scanf("%d", &wartosc);
 			m_put(macierz, x, y, wartosc);
 		}
 	}

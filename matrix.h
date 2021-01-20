@@ -16,5 +16,7 @@ int m_scanf(MATRIX* );
 void m_put(MATRIX* , int, int, int );
 int m_get(MATRIX* ,int , int);
 int m_printf(MATRIX* );
+int m_determinant(MATRIX* );
+MATRIX m_quotient(MATRIX*, MATRIX*);
 
 #endif
